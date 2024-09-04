@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(223, 221, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 2px;
+}
+
+.Main{
+    align-self: center;
+    margin-top: 7%;
+    height: 80vh;
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.inner-main{
+    height: 90%;
+  
+    width: 90%;
+    
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    align-items: center;
+    
+}
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 2%;
+    height: 83%;
+    overflow-y: scroll;
+    margin-right: 10px;
+    
+    
+}
+
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+.notifications::-webkit-scrollbar {
+    width: 6px; /* Lean scrollbar */
+}
+
+.notifications::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background color */
+    border-radius: 10px; /* Rounded edges for the track */
+}
+
+.notifications::-webkit-scrollbar-thumb {
+    background-color: rgb(97, 97, 97); /* Dark scrollbar thumb (tracker) */
+    border-radius: 10px; /* Rounded edges for the thumb */
+    min-height: 20px; /* Minimum height for the scrollbar thumb */
+    height: 30px; /* Height for the scrollbar thumb */
+    
+}
+
+
+.main-heading{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.number{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.notification-main{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-items:start;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.notification-left img{
+    height: 50px;
+    width: 50px;
+}
+
+.notification-right{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.name{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.clubname{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    margin-left: 5px;
+}
+
+.comment {
+    border-style: solid;
+    border-color: rgba(91, 91, 91, 0.738); /* This will now apply correctly */
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 2px;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .reddot{
+    height: 7px;
+    width: 7px;
+    background-color: #db2828;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .hover:hover{
+    cursor: pointer;
+    color:blue;
+  }
+
+  .notification-main:hover{
+    cursor: pointer;
+  }
